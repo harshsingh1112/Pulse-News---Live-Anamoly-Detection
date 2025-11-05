@@ -1,0 +1,120 @@
+- name: "Reuters World"
+  type: rss
+  url_or_id: "https://www.reutersagency.com/feed/?best-topics=business-finance&post_type=best"
+  topic: politics
+  enabled: true
+
+- name: "AP News"
+  type: rss
+  url_or_id: "https://feeds.apnews.com/rss/topnews"
+  topic: null
+  enabled: true
+
+- name: "BBC World"
+  type: rss
+  url_or_id: "http://feeds.bbci.co.uk/news/world/rss.xml"
+  topic: null
+  enabled: true
+
+- name: "The Guardian World"
+  type: rss
+  url_or_id: "https://www.theguardian.com/world/rss"
+  topic: null
+  enabled: true
+
+- name: "Al Jazeera"
+  type: rss
+  url_or_id: "https://www.aljazeera.com/xml/rss/all.xml"
+  topic: null
+  enabled: true
+
+- name: "UN News"
+  type: rss
+  url_or_id: "https://news.un.org/feed/subscribe/en/news/all/rss.xml"
+  topic: humanity
+  enabled: true
+
+- name: "NASA Earth"
+  type: rss
+  url_or_id: "https://earthobservatory.nasa.gov/feeds/earth-news.rss"
+  topic: environment
+  enabled: true
+
+- name: "Mongabay"
+  type: rss
+  url_or_id: "https://feeds.feedburner.com/mongabay/environment"
+  topic: environment
+  enabled: true
+
+- name: "Reddit World News"
+  type: reddit_sub
+  url_or_id: "worldnews"
+  topic: null
+  enabled: true
+
+- name: "Reddit Environment"
+  type: reddit_sub
+  url_or_id: "environment"
+  topic: environment
+  enabled: true
+
+- name: "Reddit Climate"
+  type: reddit_sub
+  url_or_id: "climate"
+  topic: environment
+  enabled: true
+
+- name: "Reddit Politics"
+  type: reddit_sub
+  url_or_id: "politics"
+  topic: politics
+  enabled: true
+
+- name: "Reddit Human Rights"
+  type: reddit_sub
+  url_or_id: "humanrights"
+  topic: humanity
+  enabled: true
+
+- name: "CNN Top Stories"
+  type: rss
+  url_or_id: "http://rss.cnn.com/rss/edition.rss"
+  topic: null
+  enabled: true
+
+- name: "BBC News"
+  type: rss
+  url_or_id: "http://feeds.bbci.co.uk/news/rss.xml"
+  topic: null
+  enabled: true
+
+- name: "Reuters Top News"
+  type: rss
+  url_or_id: "https://www.reuters.com/tools/rss"
+  topic: null
+  enabled: true
+
+- name: "The Guardian"
+  type: rss
+  url_or_id: "https://www.theguardian.com/international/rss"
+  topic: null
+  enabled: true
+
+- name: "NPR News"
+  type: rss
+  url_or_id: "https://feeds.npr.org/1001/rss.xml"
+  topic: null
+  enabled: true
+
+- name: "Associated Press"
+  type: rss
+  url_or_id: "https://feeds.apnews.com/rss/apf-topnews"
+  topic: null
+  enabled: true
+
+- name: "ABC News"
+  type: rss
+  url_or_id: "https://abcnews.go.com/abcnews/topstories"
+  topic: null
+  enabled: true
+

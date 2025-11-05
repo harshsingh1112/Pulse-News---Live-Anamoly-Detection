@@ -1,0 +1,49 @@
+{
+  "environment": {
+    "keywords": [
+      "climate", "climate change", "global warming", "carbon", "emissions",
+      "greenhouse", "renewable", "solar", "wind energy", "fossil fuel",
+      "deforestation", "biodiversity", "wildlife", "extinction", "pollution",
+      "air quality", "water quality", "ocean", "sea level", "glacier",
+      "drought", "flood", "wildfire", "hurricane", "typhoon", "tsunami",
+      "environmental", "ecosystem", "conservation", "sustainability",
+      "green", "recycling", "waste", "plastic", "nuclear", "oil spill"
+    ],
+    "phrases": [
+      "climate crisis", "environmental disaster", "natural disaster",
+      "extreme weather", "rising temperatures", "melting ice"
+    ]
+  },
+  "politics": {
+    "keywords": [
+      "election", "vote", "candidate", "president", "prime minister",
+      "government", "parliament", "congress", "senate", "legislature",
+      "policy", "law", "bill", "act", "legislation", "regulation",
+      "democracy", "republic", "authoritarian", "dictator", "regime",
+      "coup", "revolution", "protest", "demonstration", "rally",
+      "diplomacy", "treaty", "sanction", "embargo", "trade war",
+      "political", "partisan", "bipartisan", "coalition", "opposition"
+    ],
+    "phrases": [
+      "political crisis", "government shutdown", "election fraud",
+      "human rights violation", "political prisoner", "regime change"
+    ]
+  },
+  "humanity": {
+    "keywords": [
+      "refugee", "migrant", "displaced", "asylum", "humanitarian",
+      "crisis", "famine", "hunger", "malnutrition", "poverty",
+      "violence", "conflict", "war", "peace", "ceasefire", "truce",
+      "casualty", "death", "injury", "hospital", "medical", "health",
+      "education", "school", "literacy", "children", "women", "rights",
+      "equality", "discrimination", "racism", "xenophobia", "hate",
+      "genocide", "massacre", "atrocity", "crimes against humanity",
+      "human rights", "dignity", "freedom", "justice", "injustice"
+    ],
+    "phrases": [
+      "humanitarian crisis", "refugee crisis", "human rights abuse",
+      "war crimes", "ethnic cleansing", "forced migration", "child labor"
+    ]
+  }
+}
+

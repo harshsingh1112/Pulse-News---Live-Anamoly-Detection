@@ -1,0 +1,32 @@
+services:
+  - type: web
+    name: pulsewatch-backend
+    env: python
+    buildCommand: cd apps/backend && pip install -r requirements.txt
+    startCommand: cd apps/backend && uvicorn src.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: pulsewatch-db
+          property: connectionString
+      - key: REDDIT_CLIENT_ID
+        sync: false
+      - key: REDDIT_CLIENT_SECRET
+        sync: false
+      - key: REDDIT_USER_AGENT
+        value: pulsewatch/1.0
+      - key: ALLOWED_ORIGINS
+        sync: false
+      - key: ENABLE_SCHEDULER
+        value: "true"
+      - key: INGEST_MIN_INTERVAL_SECONDS
+        value: "60"
+      - key: DEFAULT_TIMEZONE
+        value: Asia/Kolkata
+
+databases:
+  - name: pulsewatch-db
+    plan: free
+    databaseName: pulsewatch
+    user: pulsewatch
+
